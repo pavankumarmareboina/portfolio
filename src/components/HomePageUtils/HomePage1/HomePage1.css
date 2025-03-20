@@ -1,0 +1,103 @@
+.HomePage1Container {
+  width: 100%;
+  /* border: 1px solid red; */
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.HomePage1Left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: self-start;
+  justify-content: center;
+  flex-direction: column;
+  /* border: 1px solid blue; */
+}
+
+.HomePage1Title h1 {
+  font-size: var(--font-size-main-title);
+  font-weight: var(--font-weight-extrabold);
+  color: var(--color-primary);
+  margin-bottom: 0;
+}
+
+.HomePage1Username p {
+  font-size: var(--font-size-secondary-title);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-secondary);
+  margin-top: 10px;
+}
+
+.HomePage1Bio p {
+  font-size: var(--font-size-third-title);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-secondary);
+  line-height: 28px;
+}
+
+span {
+  font-size: var(--font-size-third-title);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-primary);
+}
+
+.HomePage1Right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid blue; */
+}
+
+.ProfileImgContainer {
+  border-radius: 50%;
+  width: 100%;
+  height: max-content;
+  scale: 1;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ProfileImg {
+  border-radius: 50%;
+  transition: all var(--transition-fast);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-background-dark);
+  cursor: pointer;
+  object-fit: cover;
+  scale: 1;
+}
+
+.ProfileImg:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+  border-radius: 50%;
+  scale: 1.05;
+}
+.ProfileImg.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.HomePage1Tags {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  display: flex;
+  /* border: 1px solid red; */
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  column-gap: 18px;
+  row-gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: self-start;
+  justify-content: flex-start;
+  flex-shrink: inherit;
+}

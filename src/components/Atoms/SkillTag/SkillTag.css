@@ -1,0 +1,43 @@
+.skillTagContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    border-radius: 12px;
+    border: 0.5px solid var(--color-primary);
+    height: 38px;
+    width: max-content;
+    padding: 0 11px;
+    row-gap: 15px;
+    margin-bottom: 10px;
+    background-color: var(--color-tag-color);
+}
+
+.SkillTagLeftIcon, .SkillTagRightText{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.SkillTagLeftIcon img{
+    height: 20px;
+}
+
+.SkillTagRightText{
+    width: max-content;
+}
+
+.SkillTagRightText p{
+    font: var(--font-primary);
+    font-weight: var(--font-weight-extrabold);
+    font-size: var(--font-size-third-title);
+    color: var(--color-accent);
+    width: max-content;
+}
+
+.skillTagContainer:hover{
+    cursor: pointer;
+}

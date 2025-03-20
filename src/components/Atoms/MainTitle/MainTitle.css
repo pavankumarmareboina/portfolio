@@ -1,0 +1,27 @@
+.githubSectionTitle {
+  width: 100%;
+}
+
+.mainTitle {
+  font-size: var(--font-size-main-title);
+  font-family: var(--font-third);
+  font-weight: var(--font-weight-extrabold);
+  color: var(--color-primary);
+  text-align: left;
+  /* margin-bottom: 20px; */
+  border: 1px solid red;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.maintitlePara{
+    font-family: var(--font-primary);
+    font-size: var(--font-size-third-title);
+    font-weight: var(--font-weight-normal);
+    line-height: 24px;
+    color: var(--color-border);
+    text-align: left;
+    width: 70%;
+    margin: 0;
+}

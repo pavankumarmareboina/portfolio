@@ -1,18 +1,22 @@
 :root {
   /* 🌟 Font Variables */
   --font-primary: "Inter", sans-serif;
+  --font-secondary : "Poppins", sans-serif;
+  --font-third : 'Roboto', sans-serif;
   --font-weight-extrabold: 800;
-  --font-weight-semibold: 600;
+  --font-weight-semibold: 600; 
+  --font-weight-normal: 500; 
 
   /* 🎨 Colors */
   --color-primary: #ffffff; /* White */
   --color-secondary: #bbbbbb; /* Light Gray */
-  --color-accent: #ff6b00; /* Accent Color (Orange) */
+  --color-accent: #AAAAAA; /* Accent Color (Orange) */
   --color-background-dark: #191919; /* Dark Background */
   --color-border: #BBBBBB; /* Border Color */
+  --color-tag-color: #262626
 
   /* 📏 Spacing */
-  --padding-default: 10%; /* 10% from each side */
+  --padding-default: 10%;
   --padding-large: 32px;
   --padding-small: 8px;
 
@@ -77,13 +81,18 @@ h3 {
 }
 
 .container {
-  padding-left: var(--padding-default);
-  padding-right: var(--padding-default);
+  /* padding-left: var(--padding-default);
+  padding-right: var(--padding-default); */
   max-width: 1200px;
   margin: 0 auto;
+  border: 1px solid blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-/* ✨ Light Mode Support */
+
 .light-mode {
   --color-primary: var(--light-color-primary);
   --color-secondary: var(--light-color-secondary);
@@ -97,11 +106,3 @@ h3 {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-.Appcontainer{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
-  border: 1px solid red;
-}
