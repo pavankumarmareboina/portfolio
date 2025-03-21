@@ -3,6 +3,7 @@ import HomePage1 from '../../components/HomePageUtils/HomePage1/HomePage1'
 import HomePage2 from '../../components/HomePageUtils/HomePage2/HomePage2'
 import HomePage3 from '../../components/HomePageUtils/HomePage3/HomePage3'
 import HomePage4 from '../../components/HomePageUtils/HomePage4/HomePage4'
+import HomePage5 from '../../components/HomePageUtils/HomePage5/HomePage5'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
         <HomePage2/>
         <HomePage3/>
         <HomePage4/>
+        <HomePage5/>
     </div>
   )
 }

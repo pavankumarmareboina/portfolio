@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 :root {
   /* 🌟 Font Variables */
   --font-primary: "Inter", sans-serif;

@@ -15,6 +15,7 @@
   align-items: self-start;
   justify-content: center;
   flex-direction: column;
+  padding-left: 5%;
   /* border: 1px solid blue; */
 }
 

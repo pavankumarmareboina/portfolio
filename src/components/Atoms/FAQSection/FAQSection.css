@@ -1,0 +1,22 @@
+.faqsectioncontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border: 1px solid rgb(255, 0, 179);
+    width: 100%;
+}
+
+.faqtitlecontainer{
+    border: 1px solid red;
+}
+
+.faqtogglesection{
+    border: 1px solid green;
+    width: 100%;
+}
+
+.faqtoggleinsidesection{
+    width: 100%;
+    border: 1px solid pink;
+}

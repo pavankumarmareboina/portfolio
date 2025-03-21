@@ -1,4 +1,17 @@
 .HomePage4Container{
     margin-top: 5%;
     margin-bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid red;
+}
+
+.HomePage4Cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
 }

@@ -11,6 +11,7 @@
     row-gap: 15px;
     margin-bottom: 10px;
     background-color: var(--color-tag-color);
+    transition: all var(---transition-medium);
 }
 
 .SkillTagLeftIcon, .SkillTagRightText{
@@ -53,4 +54,24 @@
 
 .skillTagContainer:hover{
     cursor: pointer;
+    color: var(--light-color-primary);
+    background-color: var(--color-primary);
 }
+
+
+.skillTagContainer:hover {
+    filter: drop-shadow(0 0 2em #646cffde);
+
+  }
+  .skillTagContainer.react:hover {
+    filter: drop-shadow(2em 0 2em #61dafbe8);
+  }
+  
+  .skillTagContainer:hover a{
+    color: var(--color-background-dark);
+    background-color: #ffffffb6;
+  }
+
+  .skillTagContainer:hover img{
+    filter: brightness(100%) saturate(0%) invert(100%) sepia(0%) saturate(500%) hue-rotate(180deg);
+  }

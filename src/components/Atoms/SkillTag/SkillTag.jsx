@@ -3,7 +3,7 @@ import './SkillTag.css'
 
 const SkillTag = ({icon, Text, link, onClick}) => {
   return (
-    <div className="skillTagContainer onClick={onClick}">
+    <div className="skillTagContainer " onClick={onClick}>
         <div className="SkillTagLeftIcon">
             <img src={icon} alt={icon} />
         </div>

@@ -20,7 +20,7 @@ const ProjectCard = ({Img, title, para}) => {
 
         </div>
         <div className="projectCardbtn">
-            <SkillTag icon={projectLinkIcon} Text={"LIVE URL"} link={"www.google.com"}/>
+            <SkillTag icon={projectLinkIcon} Text={"LIVE URL"} link={"https://www.google.com"}/>
         </div>
     </div>
   )
