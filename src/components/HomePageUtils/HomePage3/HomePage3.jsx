@@ -91,12 +91,13 @@ const HomePage3 = () => {
         {/* Year Buttons */}
         <div className="year-buttons">
           {years.map((year) => (
-            <SkillTag
+            <button
               key={year}
               className={`year-btn ${year === selectedYear ? "active" : ""}`}
               onClick={() => setSelectedYear(year)}
-              Text={year}
-            />
+            >
+              {year}
+            </button>
           ))}
         </div>
       </div>

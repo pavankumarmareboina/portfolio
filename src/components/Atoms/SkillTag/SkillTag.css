@@ -28,6 +28,7 @@
 
 .SkillTagRightText{
     width: max-content;
+    margin-left: 10px;
 }
 
 .SkillTagRightText p{
@@ -36,7 +37,19 @@
     font-size: var(--font-size-third-title);
     color: var(--color-accent);
     width: max-content;
+    /* margin-left: 5px; */
+
 }
+
+.SkillTagRightText a{
+    font: var(--font-primary);
+    font-weight: var(--font-weight-extrabold);
+    font-size: var(--font-size-third-title);
+    color: var(--color-accent);
+    width: max-content;
+    text-decoration: none;
+}
+
 
 .skillTagContainer:hover{
     cursor: pointer;

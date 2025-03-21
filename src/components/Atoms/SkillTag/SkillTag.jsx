@@ -1,14 +1,14 @@
 import React from 'react'
 import './SkillTag.css'
 
-const SkillTag = ({icon, Text}) => {
+const SkillTag = ({icon, Text, link, onClick}) => {
   return (
-    <div className="skillTagContainer">
+    <div className="skillTagContainer onClick={onClick}">
         <div className="SkillTagLeftIcon">
             <img src={icon} alt={icon} />
         </div>
         <div className="SkillTagRightText">
-            <p>{Text}</p>
+            <p><a href={link}>{Text}</a></p>
         </div>
     </div>
   )
