@@ -1,22 +1,42 @@
-.faqsectioncontainer{
+.FAQSectionContainer{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid yellow; */
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    border: 1px solid rgb(255, 0, 179);
-    width: 100%;
 }
 
-.faqtitlecontainer{
-    border: 1px solid red;
+.FAQSectionLeft, .FAQSectionRight{
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
 
-.faqtogglesection{
-    border: 1px solid green;
-    width: 100%;
+.FAQSectionLeft{
+    width: 30%;
+    height: 100%;
 }
 
-.faqtoggleinsidesection{
-    width: 100%;
-    border: 1px solid pink;
+.FAQSectionLeft h2{
+    font-family: var(--font-fourth);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-primary);
+    font-size: 50px;
+    /* border: 1px solid white; */
+    padding-right: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    line-height: 60px;
+}
+
+.FAQSectionRight{
+    width: 60%;
+    flex-direction: column;
+    gap: 19px;
 }

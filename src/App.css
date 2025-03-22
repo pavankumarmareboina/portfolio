@@ -5,6 +5,7 @@
   --font-primary: "Inter", sans-serif;
   --font-secondary : "Poppins", sans-serif;
   --font-third : 'Roboto', sans-serif;
+  --font-fourth : 'Montserrat', sans-serif;
   --font-weight-extrabold: 800;
   --font-weight-semibold: 600; 
   --font-weight-normal: 500; 
@@ -15,10 +16,12 @@
   --color-accent: #AAAAAA; /* Accent Color (Orange) */
   --color-background-dark: #191919; /* Dark Background */
   --color-border: #BBBBBB; /* Border Color */
-  --color-tag-color: #262626
+  --color-tag-color: #262626;
+  --color-cards-color : #24242481;
 
   /* 📏 Spacing */
-  --padding-default: 10%;
+
+  /* --padding-default: 10%; */
   --padding-large: 32px;
   --padding-small: 8px;
 
@@ -26,7 +29,7 @@
   --font-size-main-title: 40px;
   --font-size-secondary-title: 20px;
   --font-size-third-title: 16px;
-  --font-size-fourth-title : 25px;
+  --font-size-fourth-title : 24px;
 
   /* 🌓 Light Mode (Optional) */
   --light-color-primary: #000000; /* Black */

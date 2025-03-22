@@ -1,0 +1,83 @@
+.HomePage6Container {
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 890px;
+  width: 100%;
+}
+
+.HomePage6UpperBlock {
+  width: 100%;
+  height: 15%;
+  border: 1px solid blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.HomePage6UpperBlock h2{
+    font-family: var(--font-fourth);
+    font-weight: var(--font-weight-semibold);
+    font-size: 50px;
+    line-height: 70px;
+}
+
+.HomePage6UpperBlock p{
+    font-family: var(--font-primary);
+    font-size: var(--font-sze-fourth-title);
+    font-weight: var(--font-weight-normal);
+    line-height: 28px;
+    width: 40%;
+    text-align: center;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+
+}
+
+.HomePage6LowerBlock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid yellow;
+    padding: 20px;
+    height: 85%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.HomePage6Lowerone, .HomePage6Lowerthird{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+    height: 25%;
+    border: 1px solid red;
+}
+
+.HomePage6Lowertwo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid blue;
+    width: 100%;
+    height: 30%;
+}
+
+.HomePage6Lowerfourth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid rgb(0, 255, 85);
+    width: 100%;
+    height: 20%;
+}
