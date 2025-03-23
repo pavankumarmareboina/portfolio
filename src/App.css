@@ -34,7 +34,7 @@
   /* 🌓 Light Mode (Optional) */
   --light-color-primary: #000000; /* Black */
   --light-color-secondary: #333333; /* Dark Gray */
-  --light-color-background: #f5f5f5; /* Light Gray Background */
+  --light-color-background: #f4f4f4; /* Light Gray Background */
 
   /* 🎬 Transitions */
   --transition-fast: 0.2s ease-in-out;

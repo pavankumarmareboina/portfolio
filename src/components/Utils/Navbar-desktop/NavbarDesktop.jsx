@@ -12,19 +12,19 @@ const NavbarDesktop = () => {
         </div>
         <ul className="navLinks">
           <li>
-            <a href="#Home">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="#Project">Project</a>
+            <a href="/Project">Project</a>
           </li>
           <li>
-            <a href="#About">About</a>
+            <a href="/About">About</a>
           </li>
           <li>
-            <a href="#Blog">Blog</a>
+            <a href="/Blog">Blog</a>
           </li>
           <li>
-            <a href="#Contact">Contact</a>
+            <a href="/Contact">Contact</a>
           </li>
         </ul>
         <div className="ToggleMode">
