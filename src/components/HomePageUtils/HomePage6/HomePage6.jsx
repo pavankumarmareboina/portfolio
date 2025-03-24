@@ -16,6 +16,10 @@ const HomePage6 = () => {
 
   return (
     <div className="HomePage6Container container">
+              <div className='HomePage6UpperBlock'>
+             <h2>Send Me A Message!</h2>
+             <p>Got a question or proposal, or just want to say hello? Go ahead.</p>
+             </div>
       <div className="HomePage6LowerBlock">
         <div className="HomePage6Lowerone">
           <InputCard title={"Full Name"} />

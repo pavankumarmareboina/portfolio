@@ -13,7 +13,7 @@ const ProjectCard = ({Img, title, para}) => {
             <img src={temporaryIcon} alt="" />
         </div>
         <div className="projectCardMiddle">
-            <h2>Welcome to my blog domain</h2>
+            <h2>Welcome to my blog pavan    </h2>
             <p>I'm Victor Eke, an experienced frontend developer passionate about learning and building open-source software that is beneficial to developers and the world at large.
                 Lorem ipsum dolor sit.
             </p>
