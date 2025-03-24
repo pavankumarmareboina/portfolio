@@ -1,5 +1,6 @@
 .githubSectionTitle {
   width: 100%;
+  margin-bottom: 5%;
 }
 
 .mainTitle {
@@ -9,7 +10,7 @@
   color: var(--color-primary);
   text-align: left;
   /* margin-bottom: 20px; */
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 100%;
   margin: 0;
   margin-bottom: 10px;
@@ -21,7 +22,7 @@
     font-weight: var(--font-weight-normal);
     line-height: 24px;
     color: var(--color-border);
-    text-align: left;
+    text-align: left !important;
     width: 70%;
     margin: 0;
 }

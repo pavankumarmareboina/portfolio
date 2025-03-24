@@ -43,6 +43,7 @@
   width: 100%;
   margin-top: 5%;
   font-size: var(--font-size-secondary-title);
+  overflow: hidden;
 }
 
 .projectCardMiddle P {
@@ -50,8 +51,9 @@
   font-family: var(--font-primary);
   font-size: var(--font-size-third-title);
   color: var(--color-secondary);
-  line-height: 18px;
+  line-height: 20px;
   height: 75%;
+  overflow: hidden;
 }
 
 .projectCardbtn {

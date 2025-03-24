@@ -8,7 +8,7 @@ const SkillTag = ({icon, Text, link, onClick}) => {
             <img src={icon} alt={icon} />
         </div>
         <div className="SkillTagRightText">
-            <p><a href={link}>{Text}</a></p>
+            <p><a target='_blank' href={link}>{Text}</a></p>
         </div>
     </div>
   )

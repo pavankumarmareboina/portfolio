@@ -45,7 +45,7 @@ const FooterDesktop = () => {
         <h2>Thanks for checking my website</h2>
         <p>prasxor@gmail.com</p>
       </div>
-      <div className="footerDesktoplower container">
+      <div className="footerDesktoplower">
         <div className="footerdesktoplowerleft">
           <img src={LogoDesktop} alt="" />
         </div>

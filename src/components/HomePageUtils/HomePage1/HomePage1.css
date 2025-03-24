@@ -30,7 +30,7 @@
   font-size: var(--font-size-secondary-title);
   font-weight: var(--font-weight-semibold);
   color: var(--color-secondary);
-  margin-top: 10px;
+  margin-bottom: 5%;
 }
 
 .HomePage1Bio p {
@@ -38,6 +38,7 @@
   font-weight: var(--font-weight-semibold);
   color: var(--color-secondary);
   line-height: 28px;
+  margin-top: 5%;
 }
 
 span {
@@ -52,6 +53,7 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   /* border: 1px solid blue; */
 }
 
@@ -76,6 +78,7 @@ span {
   cursor: pointer;
   object-fit: cover;
   scale: 1;
+  margin-bottom: 5%;
 }
 
 .ProfileImg:hover {
@@ -89,7 +92,7 @@ span {
 
 .HomePage1Tags {
   width: 100%;
-  max-width: 600px;
+  /* max-width: 600px; */
   margin: 20px auto;
   display: flex;
   /* border: 1px solid red; */
@@ -101,4 +104,32 @@ span {
   align-items: self-start;
   justify-content: flex-start;
   flex-shrink: inherit;
+}
+
+
+.AboutProfileContainer{
+  border: 1px solid var(--color-accent);
+  border-radius: 12px;
+  width: 100%;
+  height: 95px;
+  margin-top: 10%;
+  position: relative;
+
+}
+
+.AboutProfileContainer img{
+  /* border: 1px solid red; */
+  height: 100%;
+  position: absolute;
+  width: 30%;
+  right: 0;
+  overflow: hidden;
+}
+
+.AboutProfileContainer p{
+  margin: 20px;
+  text-align: center;
+  font-family: var(--font-primary);
+  font-size: var(--font-size-third-title);
+  font-weight: var(--font-weight-semibold);
 }

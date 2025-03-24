@@ -1,29 +1,30 @@
-import React from 'react'
-import "./ProjectCard.css"
-import SkillTag from '../SkillTag/SkillTag'
-import projectLinkIcon from "../../../assets/HomePage/liveurlIcon.svg"
-import temporaryIcon from "../../../assets/HomePage/TEMPIMG.png"
+import React from "react";
+import "./ProjectCard.css";
+import SkillTag from "../SkillTag/SkillTag";
+import projectLinkIcon from "../../../assets/HomePage/liveurlIcon.svg";
+import temporaryIcon from "../../../assets/HomePage/TEMPIMG.png";
 
-
-const ProjectCard = ({Img, title, para}) => {
-
+const ProjectCard = ({ Img, title, para, Link }) => {
   return (
-    <div className='ProjectCardsContainer'>
-        <div className="projectCardTop">
-            <img src={temporaryIcon} alt="" />
-        </div>
-        <div className="projectCardMiddle">
-            <h2>Welcome to my blog pavan    </h2>
-            <p>I'm Victor Eke, an experienced frontend developer passionate about learning and building open-source software that is beneficial to developers and the world at large.
-                Lorem ipsum dolor sit.
-            </p>
-
-        </div>
-        <div className="projectCardbtn">
-            <SkillTag icon={projectLinkIcon} Text={"LIVE URL"} link={"https://www.google.com"}/>
-        </div>
+    <div className="ProjectCardsContainer">
+      <div className="projectCardTop">
+        <img src={Img} alt="" />
+      </div>
+      <div className="projectCardMiddle">
+        <h2>{title}</h2>
+        <p>
+          {para}
+        </p>
+      </div>
+      <div className="projectCardbtn">
+        <SkillTag
+          icon={projectLinkIcon}
+          Text={"LIVE URL"}
+          link={Link}
+        />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default ProjectCard
+export default ProjectCard;

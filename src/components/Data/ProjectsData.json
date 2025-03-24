@@ -1,0 +1,20 @@
+[
+  {
+    "ProjectName": "JeevEco",
+    "Description": "Jeeveco is a zero-budget waste management app designed to encourage community-driven cleanliness. Built with React Native, the app enables users to report waste locations, track cleanup efforts, and take action towards a cleaner environment.",
+    "LiveUrl": "https://youtu.be/xMfwrhYrYd8?si=vgIB0bV79o2N8QTh",
+    "ProjectImg": "https://i.ibb.co/TM9Tzb7L/Screenshot-2025-03-24-203945.png"
+  },
+  {
+    "ProjectName": "TruthLens",
+    "Description": "TruthLens is an AI-powered fake news detection platform designed to combat misinformation. It leverages the Gemini AI API and a machine learning backend to analyze news articles and verify their credibility.",
+    "LiveUrl": "https://truthlensio.netlify.app/",
+    "ProjectImg": "https://i.ibb.co/6RpfzhLB/Untitled-design-1.png"
+  },
+  {
+    "ProjectName": "Gravity",
+    "Description": "Gravity is a comprehensive academic resource platform designed to help students access study materials in a structured and efficient way.",
+    "LiveUrl": "https://prasxor-gravity.netlify.app/",
+    "ProjectImg": "https://i.ibb.co/m56mjmKB/Screenshot-2025-03-10-161228.png"
+  }
+]
