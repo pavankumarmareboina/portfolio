@@ -6,6 +6,7 @@ import FooterDesktop from "./components/Utils/FooterDesktop/FooterDesktop";
 import Projects from "./Page/Projects/Projects";
 import About from "./Page/About/About";
 import Blog from "./Page/Blog/Blog";
+import Contact from "./Page/Contact/Contact";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/Project" element={<Projects />} />
           <Route path="/About" element={<About />} />
           <Route path="/Blog" element={<Blog />} />
+          <Route path="/Contact" element={<Contact />} />
         </Routes>
         <FooterDesktop/>
       </div>
