@@ -73,6 +73,14 @@ nav{
 
 }
 
+.navLinks .active{
+    color: var(--color-primary);
+    font-size: var(--font-size-third-title);
+    font-family: var(--font-primary);
+    font-weight: var(--font-weight-semibold);
+
+}
+
 .logo{
     display: flex;
     align-items: center;

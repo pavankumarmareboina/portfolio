@@ -1,4 +1,7 @@
+
+
 // import React from "react";
+// import { Link } from "react-router-dom"; // Import Link from react-router-dom
 // import "./NavbarDesktop.css";
 // import LogoDesktop from "../../../assets/Navbar-Img/logoDesktop.svg";
 // import LightModeIcon from "../../../assets/Navbar-Img/LightModeIcon.svg";
@@ -12,23 +15,23 @@
 //         </div>
 //         <ul className="navLinks">
 //           <li>
-//             <a href="/">Home</a>
+//             <Link to="/">Home</Link>
 //           </li>
 //           <li>
-//             <a href="/Project">Project</a>
+//             <Link to="/Project">Project</Link>
 //           </li>
 //           <li>
-//             <a href="/About">About</a>
+//             <Link to="/About">About</Link>
 //           </li>
 //           <li>
-//             <a href="/Blog">Blog</a>
+//             <Link to="/Blog">Blog</Link>
 //           </li>
 //           <li>
-//             <a href="/Contact">Contact</a>
+//             <Link to="/Contact">Contact</Link>
 //           </li>
 //         </ul>
 //         <div className="ToggleMode">
-//           <img src={LightModeIcon} alt="Logo" />
+//           <img src={LightModeIcon} alt="Theme Toggle" />
 //         </div>
 //       </div>
 //     </nav>
@@ -39,7 +42,7 @@
 
 
 import React from "react";
-import { Link } from "react-router-dom"; // Import Link from react-router-dom
+import { NavLink } from "react-router-dom"; // Import NavLink
 import "./NavbarDesktop.css";
 import LogoDesktop from "../../../assets/Navbar-Img/logoDesktop.svg";
 import LightModeIcon from "../../../assets/Navbar-Img/LightModeIcon.svg";
@@ -53,19 +56,19 @@ const NavbarDesktop = () => {
         </div>
         <ul className="navLinks">
           <li>
-            <Link to="/">Home</Link>
+            <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "")}>Home</NavLink>
           </li>
           <li>
-            <Link to="/Project">Project</Link>
+            <NavLink to="/Project" className={({ isActive }) => (isActive ? "active" : "")}>Project</NavLink>
           </li>
           <li>
-            <Link to="/About">About</Link>
+            <NavLink to="/About" className={({ isActive }) => (isActive ? "active" : "")}>About</NavLink>
           </li>
           <li>
-            <Link to="/Blog">Blog</Link>
+            <NavLink to="/Blog" className={({ isActive }) => (isActive ? "active" : "")}>Blog</NavLink>
           </li>
           <li>
-            <Link to="/Contact">Contact</Link>
+            <NavLink to="/Contact" className={({ isActive }) => (isActive ? "active" : "")}>Contact</NavLink>
           </li>
         </ul>
         <div className="ToggleMode">
