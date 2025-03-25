@@ -14,6 +14,7 @@ import photoshopIcon from "../../../assets/HomePage/SkillIcon/photoshop.svg";
 import premiereProIcon from "../../../assets/HomePage/SkillIcon/premierePro.svg";
 import quoteIcon from "../../../assets/HomePage/quoteIcon.svg";
 import linkIcon from "../../../assets/HomePage/linkIcon.svg"
+import pdf from "../../../assets/PersonalData/PrashantResume.pdf"
 
 const SkillsData = [
   { id: 1, icon: htmlIcon, text: "HTML" },
@@ -28,6 +29,17 @@ const SkillsData = [
   { id: 10, icon: premiereProIcon, text: "PREMIERE PRO" },
 ];
 const AboutProfile = () => {
+
+  const openPDF = () => {
+    if (pdf) {
+      window.open(pdf, "_blank");
+    } else {
+      console.error("PDF file not found!");
+    }
+  };
+  
+
+
   return (
     <div className="HomePage1Container container">
       <div className="HomePage1Left">
@@ -52,7 +64,7 @@ const AboutProfile = () => {
         <div className="ProfileImgContainer">
           <img className="ProfileImg" src={ProfileImg} alt="" />
         </div>
-          <SkillTag icon={linkIcon} Text={"My CV"}/>
+          <SkillTag icon={linkIcon} Text={"My CV"} onClick={openPDF}/>
       </div>
     </div>
   );

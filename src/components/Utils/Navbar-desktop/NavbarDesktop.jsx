@@ -44,8 +44,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom"; // Import NavLink
 import "./NavbarDesktop.css";
-import LogoDesktop from "../../../assets/Navbar-Img/logoDesktop.svg";
+import LogoDesktop from "../../../assets/PersonalData/image.png";
 import LightModeIcon from "../../../assets/Navbar-Img/LightModeIcon.svg";
+import ToggleBtn from "../../Atoms/ToggleBtn/ToggleBtn"
 
 const NavbarDesktop = () => {
   return (
@@ -72,7 +73,8 @@ const NavbarDesktop = () => {
           </li>
         </ul>
         <div className="ToggleMode">
-          <img src={LightModeIcon} alt="Theme Toggle" />
+          <ToggleBtn/>
+          {/* <img src={LightModeIcon} alt="Theme Toggle" /> */}
         </div>
       </div>
     </nav>

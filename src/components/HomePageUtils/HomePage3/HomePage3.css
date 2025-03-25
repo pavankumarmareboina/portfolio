@@ -34,7 +34,7 @@
     text-align: center;
     padding-left: var(--padding-default);
     padding-right: var(--padding-default);
-    background: #191919;
+    /* background: #191919; */
     /* border: 1px solid red; */
     width: 100%;
     display: flex;

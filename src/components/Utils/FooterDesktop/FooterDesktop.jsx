@@ -1,7 +1,7 @@
 import React from "react";
 import "./FooterDesktop.css";
 import byeicon from "../../../assets/HomePage/byeimg.svg";
-import LogoDesktop from "../../../assets/Navbar-Img/logoDesktop.svg";
+import LogoDesktop from "../../../assets/PersonalData/image.png";
 import LightModeIcon from "../../../assets/Navbar-Img/LightModeIcon.svg";
 import githubicon from "../../../assets/HomePage/github.svg";
 import instagramicon from "../../../assets/HomePage/instagram.svg";
@@ -9,6 +9,7 @@ import linkedinicon from "../../../assets/HomePage/linkedin.svg";
 import threadsicon from "../../../assets/HomePage/threads.svg";
 import xicon from "../../../assets/HomePage/xTwitter.svg";
 import yticon from "../../../assets/HomePage/youtube.svg";
+import ToggleBtn from "../../Atoms/ToggleBtn/ToggleBtn";
 
 const FooterDesktop = () => {
   const socailLinks = [
@@ -61,7 +62,8 @@ const FooterDesktop = () => {
           </ul>
         </div>
         <div className="footerdesktoplowerright">
-          <img src={LightModeIcon} alt="" />
+          {/* <img src={LightModeIcon} alt="" /> */}
+          <ToggleBtn/>
         </div>
       </div>
     </div>
